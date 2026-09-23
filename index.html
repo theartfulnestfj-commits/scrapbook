@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Memories — Flipbook</title>
+
+<link rel="stylesheet" href="flipbook.css" />
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Caveat:wght@500;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+
+<script src="https://cdn.jsdelivr.net/npm/page-flip@2.0.7/dist/js/page-flip.browser.js"></script>
+</head>
+
+<body>
+
+
+<main class="menu-page">
+  <div class="bg-doodles"></div>
+
+  <section class="menu-hero">
+    <p class="eyebrow">Interactive flipbook</p>
+    <h1>Our Memories</h1>
+    <p class="lead">Drag corners or swipe to flip pages</p>
+  </section>
+
+  <div class="flipbook-controls">
+    <button id="prevBtn" class="ctrl-btn">‹</button>
+    <span id="pageLabel">Page 1</span>
+    <button id="nextBtn" class="ctrl-btn">›</button>
+    <button id="fullscreenBtn" class="ctrl-btn" title="Toggle Fullscreen">⛶</button>
+  </div>
+
+  <div class="flipbook-wrap">
+    <div id="flipbook"></div>
+  </div>
+
+</main>
+
+
+<script src="flipbook.js"></script>
+</body>
+</html>
